@@ -29,14 +29,14 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    
+
     overflow: hidden;
 
     background-color: white;
     width: 250px;
     height: 500px;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    box-shadow: 0px 0px 10px solid rgba(0, 0, 0, 0.452);
 
     transform: translate(-50%, -50%);
     transition: width .3s, height .3s;
@@ -45,7 +45,7 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: #5f2c82 url(../imagens/metal.jpg) no-repeat;
+    background: #5f2c82 url(../imagens2/metal.jpg) no-repeat;
     background-size: cover;
     background-position: left bottom;
     height: 200px;
@@ -143,6 +143,3 @@ form > a.botao:hover {
 form > a.botao > span {
     font-size: 0.8em;
 }
-
-
-
